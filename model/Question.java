@@ -8,7 +8,14 @@ public class Question {
 	private String op3;
 	private String op4;
 	private String answer;
+	private boolean status;
 	
+	public boolean isStatus() {
+		return status;
+	}
+	public void setStatus(boolean status) {
+		this.status = status;
+	}
 	public Question()
 	{
 		

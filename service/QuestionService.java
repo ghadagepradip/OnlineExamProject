@@ -19,5 +19,12 @@ public class QuestionService {
 		ArrayList a=qRepo.getAllQuestion();
 		return a.size()>0?a:null;
 	}
-	
+	public boolean removeQuestion(int id)
+	{
+		return qRepo.removeQuestion(id);
+	}
+	public boolean updateQuestion(Question q1)
+	{
+		return qRepo.updateQuestion(q1);
+	}
 }

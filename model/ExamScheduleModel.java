@@ -13,7 +13,8 @@ public class ExamScheduleModel {
 	public ExamScheduleModel() {
 		
 	}
-	public ExamScheduleModel(String name, String date, String starTime, String endTime) {
+	public ExamScheduleModel(int id,String name, String date, String starTime, String endTime) {
+		this.id=id;
 		this.name = name;
 		this.date = date;
 		this.starTime = starTime;
